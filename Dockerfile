@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY index.html /user/share/nginx/html
+COPY index.html /home/ubuntu/jenkins/workspace/test-project
