@@ -1,0 +1,9 @@
+--- #this is ansible file to install a httpd in a particular host.
+host: demo
+user: ansible
+become: yes
+connection: yes
+taks:
+     -name: install httpd on linux.
+     action: yum name=httpd state=install
+
